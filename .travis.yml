@@ -12,9 +12,6 @@ matrix:
     #  - echo "Skipping tests until test suite is written."
       
     language: bash
-    before_script:
-      - cd daemon/tests
-      - python3 --version
     script: 
       - bash daemon/test/test.sh
 
