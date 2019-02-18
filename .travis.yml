@@ -1,17 +1,17 @@
-#Set language to python
-language: python
 
-python:
-  - "3.6"
-  
 matrix:
   include:
+    language: python
+    python:
+      - "3.6"
+    
     - python: 3.7
       dist: xenial
       sudo: true
+    script: 
+      - echo "Skipping tests until test suite is written."
+      
+    language: bash
+    script: 
+      - bash src/daemon/test.sh
   
-#Command to run tests
-script: 
-  - echo "Skipping tests until test suite is written."
-  
-  #- pytest
