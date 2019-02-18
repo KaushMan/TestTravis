@@ -1,1 +1,1 @@
-echo "Test script running???"
+echo "Is the test script running???"
