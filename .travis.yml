@@ -1,10 +1,14 @@
 #Set language to python
 language: python
 
-#Specify Python version 3.7.2
 python:
   - "3.6"
-  - "3.7"
+  
+matrix:
+  include:
+    - python: 3.7
+      dist: xenial
+      sudo: true
   
 #Command to run tests
 script: 
