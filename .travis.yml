@@ -13,5 +13,5 @@ matrix:
       
     language: bash
     script: 
-      - bash daemon/test.sh
+      - bash daemon/test/test.sh
   
