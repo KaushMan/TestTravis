@@ -14,7 +14,7 @@ cd testrepo
 git init
 
 #Start the daemon
-cd /home/travis/build/KamdenChew/TestTravis/daemon
+cd /home/travis/build/KaushMan/TestTravis/daemon
 echo ""
 echo ""
 echo ""
