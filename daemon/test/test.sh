@@ -28,7 +28,7 @@ echo ""
 echo ""
 echo ""
 echo ""
-python3.7 start_daemon.py
+python start_daemon.py
 
 #Stop the daemon
-python3.7 stop_daemon.py
+python stop_daemon.py
