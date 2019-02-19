@@ -1,6 +1,6 @@
 #Install GitPython and inotify
 echo "Pip3 version:"
-echo pip3.7 --version
+pip3.7 --version
 sudo pip3.7 install GitPython
 sudo pip3.7 install inotify
 
