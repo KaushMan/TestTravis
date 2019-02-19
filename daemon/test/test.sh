@@ -1,3 +1,16 @@
+#Install GitPython and inotify
+echo ""
+echo ""
+echo ""
+sudo pip install GitPython 
+echo ""
+echo ""
+echo ""
+sudo pip install inotify
+echo ""
+echo ""
+echo ""
+
 #Create gitup files
 cd /usr/share/
 sudo mkdir gitup
