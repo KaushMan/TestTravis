@@ -1,12 +1,6 @@
-echo "Initial directory:"
-pwd
-echo "Subdirectories:"
-ls
-pwd
-echo "Python3 version:"
-python3 --version
-
 #Install GitPython and inotify
+echo "Pip3 version:"
+echo pip3.7 --version
 sudo pip3.7 install GitPython
 sudo pip3.7 install inotify
 
@@ -14,7 +8,9 @@ sudo pip3.7 install inotify
 cd /usr/share/
 sudo mkdir gitup
 cd gitup
+echo "initializing repositories.csv"
 sudo touch repositories.csv
+echo "initialized repositories.csv"
 sudo cat "local_path,last_pulled \n /tmp/testrepo,0" > repositories.csv
 
 cd /tmp
