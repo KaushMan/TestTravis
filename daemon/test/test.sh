@@ -25,6 +25,12 @@ echo ""
 echo ""
 echo "starting daemon in:"
 pwd
+echo "Pip list:"
+pip list
+echo ""
+echo ""
+echo ""
+echo ""
 python3.7 start_daemon.py
 
 #Stop the daemon
