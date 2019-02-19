@@ -7,8 +7,8 @@ echo "Python3 version:"
 python3 --version
 
 #Install GitPython and inotify
-sudo pip3 install GitPython
-sudo pip3 install inotify
+sudo pip3.7 install GitPython
+sudo pip3.7 install inotify
 
 #Create gitup files
 cd /usr/share/
