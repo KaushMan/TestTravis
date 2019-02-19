@@ -11,9 +11,6 @@ sudo echo "local_path,last_pulled" | sudo tee repositories.csv > /dev/null
 sudo echo. | sudo tee -a repositories.csv > /dev/null
 sudo echo "/tmp/testrepo,0" | sudo tee -a repositories.csv > /dev/null
 
-echo "repositories.csv contents:"
-sudo cat repositories.csv
-
 cd /tmp
 mkdir testrepo
 cd testrepo
@@ -21,6 +18,13 @@ git init
 
 #Start the daemon
 cd /home/travis/build/KamdenChew/TestTravis/daemon
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "starting daemon in:"
+pwd
 python3.7 start_daemon.py
 
 #Stop the daemon
