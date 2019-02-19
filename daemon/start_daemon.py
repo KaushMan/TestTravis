@@ -1,5 +1,4 @@
-from daemon
-import GitUpDaemon
+from daemon import GitUpDaemon
 import os
 
 logs_dir_path = '/tmp/gitup/'
