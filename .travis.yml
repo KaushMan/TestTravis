@@ -1,13 +1,13 @@
-
+before_install:
+      - sudo pip install GitPython
+      - sudo pip install inotify
+      
 matrix:
   include:
     language: python
     python: 3.7
     dist: xenial
     sudo: true
-    before_install:
-      - sudo pip install GitPython
-      - sudo pip install inotify
     before_script:
       - sudo chmod +x ./daemon/test/test.sh
     script:
