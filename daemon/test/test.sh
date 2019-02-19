@@ -7,8 +7,10 @@ cd /usr/share/
 sudo mkdir gitup
 cd gitup
 sudo touch repositories.csv
-#sudo chmod +w repositories.csv
-sudo echo "local_path,last_pulled \\n /tmp/testrepo,0" | sudo tee repositories.csv > /dev/null
+sudo echo "local_path,last_pulled" | sudo tee repositories.csv > /dev/null
+sudo echo. | sudo tee repositories.csv >> /dev/null
+sudo echo "/tmp/testrepo,0" | sudo tee repositories.csv >> /dev/null
+
 echo "repositories.csv contents:"
 sudo cat repositories.csv
 
