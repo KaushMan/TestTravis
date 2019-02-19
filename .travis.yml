@@ -1,6 +1,5 @@
-install:
-  - sudo pip install GitPython
-  - sudo pip install inotify
+install: sudo pip install GitPython
+install: sudo pip install inotify
 
 matrix:
   include:
