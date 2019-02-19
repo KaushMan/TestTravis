@@ -8,8 +8,8 @@ sudo mkdir gitup
 cd gitup
 sudo touch repositories.csv
 sudo echo "local_path,last_pulled" | sudo tee repositories.csv > /dev/null
-sudo echo. | sudo tee repositories.csv >> /dev/null
-sudo echo "/tmp/testrepo,0" | sudo tee repositories.csv >> /dev/null
+sudo echo. | sudo tee -a repositories.csv > /dev/null
+sudo echo "/tmp/testrepo,0" | sudo tee -a repositories.csv > /dev/null
 
 echo "repositories.csv contents:"
 sudo cat repositories.csv
