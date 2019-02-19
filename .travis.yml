@@ -1,3 +1,7 @@
+install:
+  - sudo pip install GitPython
+  - sudo pip install inotify
+
 matrix:
   include:
     language: python
