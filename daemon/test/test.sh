@@ -1,7 +1,3 @@
-#Install GitPython and inotify
-sudo -H pip3.7 install GitPython
-sudo -H pip3.7 install inotify
-
 #Create gitup files
 cd /usr/share/
 sudo mkdir gitup
